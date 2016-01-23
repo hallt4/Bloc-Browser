@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04B66B61C45D94F00A2BEE8 /* AwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D04B66B51C45D94F00A2BEE8 /* AwesomeFloatingToolbar.m */; };
 		D0EE27C91C1D216A0085C67B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE27C81C1D216A0085C67B /* main.m */; };
 		D0EE27CC1C1D216A0085C67B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE27CB1C1D216A0085C67B /* AppDelegate.m */; };
 		D0EE27CF1C1D216A0085C67B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE27CE1C1D216A0085C67B /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04B66B41C45D94F00A2BEE8 /* AwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeFloatingToolbar.h; sourceTree = "<group>"; };
+		D04B66B51C45D94F00A2BEE8 /* AwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeFloatingToolbar.m; sourceTree = "<group>"; };
 		D0EE27C41C1D216A0085C67B /* BlocBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EE27C81C1D216A0085C67B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0EE27CA1C1D216A0085C67B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				D0EE27CB1C1D216A0085C67B /* AppDelegate.m */,
 				D0EE27CD1C1D216A0085C67B /* ViewController.h */,
 				D0EE27CE1C1D216A0085C67B /* ViewController.m */,
+				D04B66B41C45D94F00A2BEE8 /* AwesomeFloatingToolbar.h */,
+				D04B66B51C45D94F00A2BEE8 /* AwesomeFloatingToolbar.m */,
 				D0EE27D31C1D216A0085C67B /* Assets.xcassets */,
 				D0EE27D51C1D216A0085C67B /* LaunchScreen.storyboard */,
 				D0EE27D81C1D216A0085C67B /* Info.plist */,
@@ -269,6 +274,7 @@
 				D0EE27CF1C1D216A0085C67B /* ViewController.m in Sources */,
 				D0EE27CC1C1D216A0085C67B /* AppDelegate.m in Sources */,
 				D0EE27C91C1D216A0085C67B /* main.m in Sources */,
+				D04B66B61C45D94F00A2BEE8 /* AwesomeFloatingToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +492,7 @@
 				D0EE27F31C1D216A0085C67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EE27F41C1D216A0085C67B /* Build configuration list for PBXNativeTarget "BlocBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				D0EE27F61C1D216A0085C67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EE27F71C1D216A0085C67B /* Build configuration list for PBXNativeTarget "BlocBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +510,7 @@
 				D0EE27F91C1D216A0085C67B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
